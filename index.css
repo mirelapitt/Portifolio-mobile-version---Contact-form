@@ -311,6 +311,28 @@ h4 {
   font-size: 20px;
   margin-bottom: -15px;
 }
+.name {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  margin: 49px 24px 0 19px;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+}
+.mail{
+ position: relative;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: white;
+  margin: 49px 24px 0 19px;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+}
 
 .languages strong {
   margin-left: 19px;
