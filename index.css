@@ -340,7 +340,7 @@ p {
   color: #fff;
   border-top-left-radius: 14%;
 }
-
+.
 h5 {
   display: flex;
   flex-direction: column-reverse;
@@ -351,6 +351,30 @@ h5 {
   margin-right: 29px;
   padding-top: 145px;
   padding-bottom: 1%;
+}
+
+.name {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  margin: 49px 24px 0 19px;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+}
+
+.mail {
+  position: relative;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: white;
+  margin: 49px 24px 0 19px;
+  width: 327px;
+  height: 48px;
+  left: 24px;
 }
 
 .get_in_touch:hover {
