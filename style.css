@@ -329,9 +329,9 @@ p {
   padding: 1px 1px 1px 1px;
 }
 
-.contact_form_container{
+.contact_form_container {
   background-image: url('./images_footer/mobile_contact_background.jpg');
-  background-color:#6070ff;
+  background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 794px;
@@ -363,81 +363,82 @@ h5 {
   background-color: #396df2;
   color: #fff;
 }
- .get_in_touch {
-    border-radius: 8px;
-    margin-top: 3px;
-    padding: 3%;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 54px;
-    border-color: #396df2;
-    border-style: solid;
-    color: #396df2;
-    border-width: 1px;
-    font-size: 111%;
-    margin-right: 189px;
-  }
 
-  .get_in_touch button {
-    float: right;
-    text-align: right;
-  }
+.get_in_touch {
+  border-radius: 8px;
+  margin-top: 3px;
+  padding: 3%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 54px;
+  border-color: #396df2;
+  border-style: solid;
+  color: #396df2;
+  border-width: 1px;
+  font-size: 111%;
+  margin-right: 189px;
+}
 
-  .formpart li {
-    margin-left:1px;
-    padding: 5px 1px 1px 1px;
-    text-align: center;
-    justify-content: space-between;
-    border-radius: 1%;
-  }
+.get_in_touch button {
+  float: right;
+  text-align: right;
+}
 
-  input {
-    width: 327px;
-    margin-left: -48px;
-    height: 44px;
-    border-radius: 10px;
-    outline: 0;
-    border: none;
-  }
+.formpart li {
+  margin-left: 1px;
+  padding: 5px 1px 1px 1px;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 1%;
+}
 
-  textarea {
-    Width: 324px;
-    Height: 170px;
-    margin-left: -47px;
-    border-radius: 10px;
-    border: none;
-  }
- 
-  .form_font {
-    font-size: 22px;
-    line-height: 28px;
-    padding: 0 61px 30px 30px;
-    text-align: center;
-    margin: 0 auto;
-  }
+input {
+  width: 327px;
+  margin-left: -48px;
+  height: 44px;
+  border-radius: 10px;
+  outline: 0;
+  border: none;
+}
 
-  .contact_me_container {
-    margin-top: 100px;
-  }
+textarea {
+  width: 324px;
+  height: 170px;
+  margin-left: -47px;
+  border-radius: 10px;
+  border: none;
+}
 
-  .form_input {
-    margin-top: -15px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
+.form_font {
+  font-size: 22px;
+  line-height: 28px;
+  padding: 0 61px 30px 30px;
+  text-align: center;
+  margin: 0 auto;
+}
 
-  .font_container {
-    margin-top: 10px;
-  }
+.contact_me_container {
+  margin-top: 100px;
+}
 
-  form {
-    margin-top: 1px;
-  }
+.form_input {
+  margin-top: -15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.font_container {
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 1px;
+}
 
 input[type="email" i] {
-    padding: 3px 3px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  padding: 3px 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .form_part {
