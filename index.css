@@ -346,11 +346,10 @@ p {
   color: #ebebff;
   text-align: center;
   letter-spacing: 0;
-  white-space: pre-wrap;
-  padding: 52px;
-  margin-top: -99px;
-  margin-bottom: -69px;
-  font-size: 23px;
+  padding: 27px;
+  margin-top: -42px;
+  margin-bottom: -59px;
+  font-size: 26px;
 }
 
 .name {
