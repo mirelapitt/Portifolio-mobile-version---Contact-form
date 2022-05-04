@@ -335,22 +335,22 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 794px;
-  width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   border-top-left-radius: 14%;
 }
-.
-h5 {
-  display: flex;
-  flex-direction: column-reverse;
-  font-size: 36px;
-  margin: 21% -18% 5% 8%;
+
+.contactme-subtitle1 {
+  overflow: visible;
+  font: 20px/1.4 "Poppins", Helvetica, Arial, serif;
+  color: #ebebff;
   text-align: center;
-  font-weight: 900;
-  margin-right: 29px;
-  padding-top: 145px;
-  padding-bottom: 1%;
+  letter-spacing: 0;
+  white-space: pre-wrap;
+  padding: 52px;
+  margin-top: -99px;
+  margin-bottom: -69px;
+  font-size: 23px;
 }
 
 .name {
@@ -359,8 +359,8 @@ h5 {
   flex-direction: column;
   background-color: white;
   position: relative;
-  margin: 49px 24px 0 19px;
-  width: 327px;
+  margin: 49px 24px 0 -27px;
+  width: 347px;
   height: 48px;
   left: 24px;
 }
@@ -371,21 +371,10 @@ h5 {
   border-radius: 8px;
   flex-direction: column;
   background-color: white;
-  margin: 49px 24px 0 19px;
-  width: 327px;
+  margin: 49px 24px 6px -28px;
+  width: 343px;
   height: 48px;
   left: 24px;
-}
-
-.get_in_touch:hover {
-  background-color: #90b0ff;
-  color: #fff;
-  cursor: pointer;
-}
-
-.get_in_touch:active {
-  background-color: #396df2;
-  color: #fff;
 }
 
 .get_in_touch {
@@ -400,6 +389,18 @@ h5 {
   border-width: 1px;
   font-size: 111%;
   margin-right: 189px;
+  margin-left: 32px;
+}
+
+.get_in_touch:hover {
+  background-color: #90b0ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.get_in_touch:active {
+  background-color: #396df2;
+  color: #fff;
 }
 
 .get_in_touch button {
@@ -459,9 +460,9 @@ form {
   margin-top: 1px;
 }
 
-input[type="email" i] {
+input[type="email"i] {
   padding: 3px 3px;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 
@@ -469,14 +470,25 @@ input[type="email" i] {
   float: left;
 }
 
-.msg {display: flex;
+.msg {
+  display: flex;
   flex-direction: column;
   background-color: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px 8px 8px 8px;
-  margin: 18px 24px 0 19px;
+  margin: 18px 27px 15px -6px;
   resize: none;
   box-sizing: border-box;
-  width: 327px;
-  height: 170px;}
+  width: 355px;
+  height: 170px;
+}
 
+.contactme-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 40px/1.3 "Poppins", Helvetica, Arial, serif;
+  text-align: center;
+  letter-spacing: 0;
+  margin-top: 167px;
+}
